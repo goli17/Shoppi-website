@@ -1,0 +1,12 @@
+<div className="shopcategory-sort">
+          Sort by{" "}
+          <select
+            value={selectedSort}
+            onChange={(e) => setSelectedSort(e.target.value)}
+          >
+            <option value="default">Default</option>
+            <option value="women">Women</option>
+            <option value="men">Men</option>
+            <option value="kids">Kids</option>
+          </select>
+        </div>

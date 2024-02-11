@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Tomorrow:wght@300&display=swap");
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  padding: 16px;
+  background: #ff4545;
+  height: 100px;
+  font-family: "Roboto", sans-serif;
+  font-family: "Tomorrow", sans-serif;
+  align-items: center;
+}
+.nav-logo {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.nav-logo img {
+  height: 50px;
+}
+h1 {
+  display: none;
+}
+.nav-logo p {
+  font-size: 27px;
+  font-weight: 700;
+  color: #eaeaea;
+  cursor: pointer;
+}
+
+.nav-logo hr {
+  height: 1px;
+  width: 100%;
+  border-radius: 25px;
+  background: #eaeaea;
+}
+.nav-items {
+  display: flex;
+  align-items: center;
+  padding: 1.7rem;
+  list-style: none;
+  color: #eaeaea;
+  font-size: 1.5rem;
+  font-weight: 500;
+  gap: 40px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+li {
+  text-decoration: "none";
+  color: "#eaeaea";
+  font-weight: "500";
+}
+.nev-items li {
+  margin-bottom: 0px;
+  cursor: pointer;
+  position: absolute;
+}
+.nav-items li:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(1.1);
+}
+.nav-login-cart {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.nav-login-cart button {
+  width: 150px;
+  height: 58px;
+  border-radius: 75px;
+  font-size: 1.5rem;
+  background-color: white;
+  color: #ff4545;
+  cursor: pointer;
+  border: none;
+}
+.nav-login-cart button:hover {
+  font-weight: 1000;
+  font-size: 1.6rem;
+  transition: all 0.3s ease-out;
+  transform: scale(1.1);
+}
+.nav-login-cart-count {
+  color: #eaeaea;
+  width: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -27px;
+  margin-left: -46px;
+  border-radius: 15px;
+  font-size: 14px;
+  background-color: red;
+  color: #dad8d8;
+  font-weight: 900;
+  height: 20px;
+  z-index: 1;
+  cursor: pointer;
+}
+.nav-login-cart-count:hover {
+  transition: all 0.3s ease-out;
+  transform: scale(1.1);
+}
+.nav-login-cart img {
+  height: 3rem;
+}
+.subMenu li {
+  list-style: none;
+}
+hr {
+  padding: 0px;
+  margin: 0px;
+}
+.dropdown {
+  height: 2.5rem;
+  display: none;
+}
+.dropdown:hover {
+  transition: 0.3s;
+}
+.cart-img {
+  height: 45px;
+}
+@media (max-width: 1280px) {
+  .navbar {
+    padding: 12px 50px;
+  }
+  .logo img {
+    height: 30px;
+  }
+  .logo p {
+    font-size: 1.2rem;
+  }
+  .nav-items {
+    gap: 25px;
+    font-size: 1.2rem;
+  }
+  .nav-login-cart button {
+    width: 100px;
+    height: 45px;
+    border-radius: 75px;
+    font-size: 1.2rem;
+  }
+  .nav-login-cart button:hover {
+    font-weight: 700;
+    font-size: 1.3rem;
+    transition: all 0.3s ease-out;
+    transform: scale(1.1);
+  }
+  .nav-login-cart img {
+    height: 2.2rem;
+  }
+  .nav-login-cart-count {
+    width: 17px;
+    height: 15px;
+    font-size: 12px;
+    margin-top: -27px;
+    margin-left: -45px;
+  }
+  .cart-img {
+    height: 35px;
+  }
+}
+@media (max-width: 1024px) {
+  .navbar {
+    padding: 10px 30px;
+  }
+  .logo img {
+    height: 25px;
+  }
+  .logo p {
+    font-size: 1.1rem;
+  }
+  .nav-items {
+    gap: 17px;
+    font-size: 1rem;
+  }
+  .nav-login-cart button {
+    width: 70px;
+    height: 35px;
+    border-radius: 75px;
+    font-size: 1rem;
+  }
+  .nav-login-cart button:hover {
+    font-weight: 700;
+    font-size: 1.1rem;
+    transition: all 0.3s ease-out;
+    transform: scale(1.1);
+  }
+  .nav-login-cart img {
+    height: 2rem;
+  }
+  .nav-login-cart-count {
+    width: 15px;
+    height: 12px;
+    font-size: 10px;
+  }
+  .cart-img {
+    height: 25px;
+  }
+  .nav-login-cart-count {
+    width: 13px;
+    height: 12px;
+    font-size: 10px;
+    margin-top: -22px;
+    margin-left: -39px;
+  }
+}
+@media (max-width: 500px) {
+  .nav-logo img {
+    height: 35px;
+  }
+  .nav-logo p {
+    font-size: 20px;
+  }
+
+  .navbar {
+    display: flex;
+  }
+  .dropdown {
+    display: block;
+    align-items: flex-end;
+  }
+  .dropdown:hover {
+    transform: scale(1.1);
+    transition: all 0.3s;
+  }
+  .nav-items {
+    font-size: 0.9rem;
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    margin-top: 350px;
+    gap: 0px;
+  }
+  .nav-items li:hover {
+    background: #ff7272;
+  }
+  ul li hr {
+    display: none;
+  }
+  .nav-items ul {
+    position: absolute;
+    background: #ff4545;
+  }
+  .nav-items li {
+    font-size: 1rem;
+    padding: 20px;
+    background: #ff4545;
+    width: 500px;
+    text-align: center;
+  }
+
+  .nav-login-cart-count {
+    margin-top: -25px;
+    margin-left: -32px;
+    height: 14px;
+    width: 14px;
+  }
+  .nav-items.open {
+    display: flex;
+  }
+}

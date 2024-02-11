@@ -1,0 +1,114 @@
+.shopCategory .poster {
+  width: 82%;
+  margin: 30px auto;
+}
+.shopcategory-index {
+  display: flex;
+  margin: 0px 170px;
+  justify-content: space-between;
+  align-items: center;
+}
+.shopcategory-sort {
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #ff4545;
+  font-weight: 600;
+}
+.shopcategory-product {
+  margin: 20px 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 80px;
+  column-gap: 30px;
+}
+.shopcategory-loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 233px;
+  height: 69px;
+  border-radius: 30px;
+  border: 1px solid #ff4545;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.shopcategory-loadmore :hover {
+  transform: scale(1.1);
+  transition: all 0.3s;
+}
+@media (max-width: 1280px) {
+  .shopCategory {
+    width: 90%;
+    margin: 20px auto;
+  }
+  .shopcategory-index {
+    width: 90%;
+    margin: auto;
+  }
+  .shopcategory-sort {
+    padding: 7px 12px;
+    font-size: 12px;
+  }
+  .shopcategory-index p {
+    font-size: 13px;
+  }
+  .shopcategory-product {
+    margin: 10px auto;
+    width: 90%;
+    row-gap: 40px;
+  }
+  .shopcategory-product .item {
+    margin: auto;
+  }
+  .shopcategory-loadmore {
+    margin: 130px auto;
+    width: 180px;
+    height: 60px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 800px) {
+  .shopCategory {
+    width: 95%;
+    margin: 10px auto;
+  }
+  .shopcategory-index {
+    width: 90%;
+    margin: auto;
+  }
+  .shopcategory-sort {
+    padding: 6px 11px;
+    font-size: 12px;
+  }
+  .shopcategory-index p {
+    font-size: 13px;
+  }
+  .shopcategory-product {
+    margin: 10px auto;
+    width: 90%;
+    row-gap: 40px;
+  }
+  .shopcategory-product .item {
+    margin: auto;
+  }
+  .shopcategory-loadmore {
+    margin: 60px auto;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+  }
+}
+@media (max-width: 500px) {
+  .shopcategory-product {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .shopcategory-loadmore {
+    margin: 60px auto;
+    width: 150px;
+    height: 40px;
+    font-size: 13px;
+  }
+}

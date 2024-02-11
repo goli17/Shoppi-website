@@ -1,0 +1,82 @@
+.PopularMen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  height: 90vh;
+}
+.PopularMen h1 {
+  color: #ff4545;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+}
+.PopularMen hr {
+  width: 170px;
+  height: 6px;
+  border-radius: 75px;
+  background: #ff4545;
+  border: none;
+}
+.PopularMen-item {
+  display: flex;
+  margin-top: 50px;
+  gap: 30px;
+}
+@media (max-width: 1280px) {
+  .PopularMen {
+    height: 70vh;
+  }
+  .PopularMen h1 {
+    font-size: 20px;
+  }
+  .PopularMen hr {
+    width: 150px;
+    height: 4px;
+  }
+  .PopularMen-item {
+    gap: 20px;
+    margin-top: 30px;
+  }
+}
+@media (max-width: 1024px) {
+  .PopularMen {
+    height: 60vh;
+  }
+  .PopularMen h1 {
+    font-size: 17px;
+  }
+  .PopularMen hr {
+    width: 120px;
+    height: 2px;
+  }
+  .PopularMen-item {
+    gap: 15px;
+    margin-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .PopularMen {
+    height: 50vh;
+    gap: 6px;
+  }
+  .PopularMen h1 {
+    font-size: 15px;
+  }
+  .PopularMen hr {
+    width: 100px;
+  }
+  .PopularMen-item {
+    gap: 5px;
+  }
+}
+@media (max-width: 500px) {
+  .PopularMen {
+    height: 80vh;
+  }
+  .PopularMen-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+  }
+}

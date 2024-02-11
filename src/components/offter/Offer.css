@@ -1,0 +1,125 @@
+.offer {
+  display: flex;
+  margin: auto;
+  width: 70%;
+  height: 60vh;
+  padding: 0px 140px;
+  margin-bottom: 150px;
+  background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+.offer:hover {
+  background: none;
+}
+.offer-left {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.offer-left h1 {
+  color: #171717;
+  font-size: 80px;
+  font-weight: 600;
+  display: flex;
+}
+.offer-left p {
+  color: #171717;
+  font-size: 22px;
+  font-weight: 600;
+}
+.offer-left button {
+  width: 282px;
+  height: 70px;
+  border-radius: 75px;
+  margin-top: 30px;
+  background: #ff4545;
+  font-size: 22px;
+  color: #eaeaea;
+  font-weight: 500;
+  border: none;
+}
+.offer-left button:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease-out;
+}
+.offer-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+@media (max-width: 1280px) {
+  .offer {
+    height: 40vh;
+    padding: 0px 60px;
+    margin-bottom: 80px;
+  }
+  .offer-left h1 {
+    font-size: 30px;
+  }
+  .offer-left p {
+    font-size: 16px;
+  }
+  .offer-left button {
+    width: 160px;
+    height: 40px;
+    font-size: 16px;
+  }
+  .img {
+    width: 15px;
+  }
+  .offer-right {
+    padding-top: 10px;
+  }
+  .offer-right img {
+    width: 200px;
+  }
+}
+@media (max-width: 800px) {
+  .offer {
+    margin-bottom: 60px;
+  }
+  .offer-left h1 {
+    font-size: 22px;
+  }
+  .offer-left p {
+    font-size: 13px;
+  }
+  .offer-left button {
+    width: 120px;
+    height: 30px;
+    font-size: 13px;
+  }
+  .img {
+    width: 13px;
+  }
+  .offer-right img {
+    width: 180px;
+  }
+}
+@media (max-width: 500px) {
+  .offer {
+    height: 30vh;
+    margin-bottom: 50px;
+  }
+  .offer-left h1 {
+    font-size: 16px;
+  }
+  .offer-left p {
+    font-size: 10px;
+  }
+  .offer-left button {
+    width: 120px;
+    height: 25px;
+    font-size: 10px;
+    margin-top: 10px;
+  }
+  .img {
+    width: 10px;
+    padding-left: 4px;
+  }
+  .offer-right img {
+    width: 120px;
+  }
+}
