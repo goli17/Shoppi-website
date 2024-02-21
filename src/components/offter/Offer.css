@@ -100,8 +100,8 @@
 }
 @media (max-width: 500px) {
   .offer {
-    height: 30vh;
-    margin-bottom: 50px;
+    height: fit-content;
+    padding-bottom: 20px;
   }
   .offer-left h1 {
     font-size: 16px;

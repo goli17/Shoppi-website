@@ -72,7 +72,8 @@
 }
 @media (max-width: 500px) {
   .relatedProduct {
-    height: 70vh;
+    height: fit-content;
+    padding-bottom: 20px;
   }
   .relatedProduct-item {
     display: grid;

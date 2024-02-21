@@ -152,6 +152,11 @@
   }
 }
 @media (max-width: 500px) {
+  .cartItems-total button {
+    max-width: auto;
+    height: 40px;
+    font-size: 12px;
+  }
   .cartItems-format-main {
     display: none;
     grid-template-columns: 0.3fr 3fr 0.5fr;

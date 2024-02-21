@@ -72,7 +72,7 @@
 }
 @media (max-width: 500px) {
   .PopularMen {
-    height: 80vh;
+    height: 70vh;
   }
   .PopularMen-item {
     display: grid;
