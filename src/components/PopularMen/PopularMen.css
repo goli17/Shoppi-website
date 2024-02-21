@@ -41,7 +41,8 @@
 }
 @media (max-width: 1024px) {
   .PopularMen {
-    height: 60vh;
+    height: fit-content;
+    padding-bottom: 20px;
   }
   .PopularMen h1 {
     font-size: 17px;

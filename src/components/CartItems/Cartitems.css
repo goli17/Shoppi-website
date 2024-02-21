@@ -152,10 +152,9 @@
   }
 }
 @media (max-width: 500px) {
-  .cartItems-total button {
-    max-width: auto;
-    height: 40px;
-    font-size: 12px;
+  .cartItem-promobox {
+    width: auto;
+    max-width: 300px;
   }
   .cartItems-format-main {
     display: none;

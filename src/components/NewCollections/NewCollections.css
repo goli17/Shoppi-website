@@ -83,7 +83,6 @@
 @media (max-width: 500px) {
   .NewCollection {
     height: fit-content;
-    margin-bottom: 100px;
     padding-bottom: 20px;
   }
   .collections {
