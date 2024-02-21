@@ -22,7 +22,7 @@
 .footer-link {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
   gap: 50px;
   list-style: none;
   color: #eaeaea;
@@ -83,12 +83,17 @@
   }
   .footer-link {
     gap: 10px;
+    align-items: center;
     font-size: 14px;
+    padding: 0px;
   }
   .footer-social-icon img {
     height: 20px;
   }
   .footer-copyright p {
     font-size: 15px;
+  }
+  .footer-social-icon-containter {
+    padding: 5px;
   }
 }

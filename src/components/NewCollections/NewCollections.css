@@ -82,8 +82,9 @@
 }
 @media (max-width: 500px) {
   .NewCollection {
-    height: 110vh;
+    height: fit-content;
     margin-bottom: 100px;
+    padding-bottom: 20px;
   }
   .collections {
     display: grid;
